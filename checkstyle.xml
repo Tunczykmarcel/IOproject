@@ -1,0 +1,20 @@
+<!DOCTYPE module PUBLIC
+        "-//Checkstyle//DTD Checkstyle Configuration 1.3//EN"
+        "https://checkstyle.org/dtds/configuration_1_3.dtd">
+
+<module name="Checker">
+
+    <module name="TreeWalker">
+
+        <!-- Wymaga spacji po przecinku -->
+        <module name="WhitespaceAfter"/>
+
+        <!-- Wymaga spacji wokół operatorów -->
+        <module name="WhitespaceAround"/>
+
+        <!-- Wymaga poprawnego zapisu klamr -->
+        <module name="LeftCurly"/>
+
+    </module>
+
+</module>
